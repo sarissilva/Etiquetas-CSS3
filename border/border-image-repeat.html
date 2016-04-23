@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#borderimg1 { 
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source: url(http://www.isaacsacca.com/wp-content/uploads/2016/02/arbol..jpg);
+    border-image-repeat: repeat;
+    border-image-slice: 30;
+}
+
+#borderimg2 { 
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source: url(http://www.isaacsacca.com/wp-content/uploads/2016/02/arbol..jpg);
+    border-image-repeat: round;
+    border-image-slice: 30;
+}
+
+#borderimg3 { 
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source: url(http://www.isaacsacca.com/wp-content/uploads/2016/02/arbol..jpg);
+    border-image-repeat: stretch;    
+    border-image-slice: 30;
+}
+</style>
+</head>
+<body>
+
+<p>The border-image-repeat property specifies whether the border image should be repeated, rounded or stretched:</p>
+<p id="borderimg1">border-image-repeat: repeat;</p>
+<p id="borderimg2">border-image-repeat: round;</p>
+<p id="borderimg3">border-image-repeat: stretched;</p>
+
+<p>Here is the original image:</p><img src="http://www.isaacsacca.com/wp-content/uploads/2016/02/arbol..jpg">
+<p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image-repeat property.</p>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDslTivTeO5JEBoqu8jD6QkfNuWYbS_9bX8Y6PLG6ksiQYJ4bMzQ) round; 
+    -o-border-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDslTivTeO5JEBoqu8jD6QkfNuWYbS_9bX8Y6PLG6ksiQYJ4bMzQ) round; 
+    border-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDslTivTeO5JEBoqu8jD6QkfNuWYbS_9bX8Y6PLG6ksiQYJ4bMzQ) round;
+    border-image-slice: 50;
+}
+
+#borderimg2 {
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDslTivTeO5JEBoqu8jD6QkfNuWYbS_9bX8Y6PLG6ksiQYJ4bMzQ) round; /
+    -o-border-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDslTivTeO5JEBoqu8jD6QkfNuWYbS_9bX8Y6PLG6ksiQYJ4bMzQ) round; 
+    border-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDslTivTeO5JEBoqu8jD6QkfNuWYbS_9bX8Y6PLG6ksiQYJ4bMzQ) round;
+    border-image-slice: 20%;
+}
+
+#borderimg3 {
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDslTivTeO5JEBoqu8jD6QkfNuWYbS_9bX8Y6PLG6ksiQYJ4bMzQ) round; 
+        -o-border-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDslTivTeO5JEBoqu8jD6QkfNuWYbS_9bX8Y6PLG6ksiQYJ4bMzQ) round; 
+    border-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDslTivTeO5JEBoqu8jD6QkfNuWYbS_9bX8Y6PLG6ksiQYJ4bMzQ) round;
+    border-image-slice: 30%;
+}
+</style>
+</head>
+<body>
+
+<p id="borderimg1">border-image-slice: 50;</p>
+<p id="borderimg2">border-image-slice: 20%;</p>
+<p id="borderimg3">border-image-slice: 30%;</p>
+
+<p>Here is the image used:</p>
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDslTivTeO5JEBoqu8jD6QkfNuWYbS_9bX8Y6PLG6ksiQYJ4bMzQ">
+
+<p><strong>Note:</strong> Internet Explorer 10, and earlier versions, do not support the border-image-slice property.</p>
+
+</body>
+</html>
