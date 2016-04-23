@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: mymove infinite; 
+    -webkit-animation-duration: 2s;
+    animation: mymove infinite;
+    animation-duration: 2s;
+}
+
+
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+</style>
+</head>
+<body>
+
+<p><strong>Note:</strong> The animation-duration property is not supported in Internet Explorer 9 and earlier versions.</p>
+<div></div>
+<p><b>Note:</b> Always specify the animation-duration property. Otherwise the duration is 0, and the animation will not be played.</p>
+
+</body>
+</html>
